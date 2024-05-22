@@ -1,0 +1,51 @@
+/********************
+
+  フッターなどの設定をするCSS　
+
+*********************/
+@charset "utf-8";
+
+/*全体の設定*/
+body{
+    font-size: 35px;
+    font-family: 'Noto Sans CJK JP';
+    font-feature-settings: 'palt';
+    color: #000;
+    max-width: 750px;
+}
+.rapper{
+    min-width: 750px;
+    box-shadow: 0 0 17px rgb(0 0 0 / 30%);
+}
+
+/*フッター設定*/
+Footer{
+    padding: 20px 0;
+    line-height: 1.25;
+    background-color: #555555; /*背景色*/
+    color: #fdfdfd; /*文字色*/
+}
+Footer .btn-img{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 50px;
+}
+Footer a{
+    color: #fdfdfd; /*リンク文字の文字色*/
+    font-size: 1.5rem;
+    line-height: 2.5;
+}
+.footer-flex{
+    display: flex;
+    justify-content: center;
+}
+.footer-flex p{
+    padding-left: 18px;
+}
+.footer-flex p:first-child {
+    padding-left: 0px;
+}
+.Copyright{
+    font-size: 0.9rem;
+}

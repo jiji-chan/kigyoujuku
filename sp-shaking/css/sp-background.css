@@ -1,0 +1,12 @@
+/********************
+
+  スライスした画像を入れるCSS　
+
+*********************/
+
+@charset "utf-8";
+.section1 {
+    background: url("../img/sp-fv.jpg");
+    height: 5076px;
+}
+
